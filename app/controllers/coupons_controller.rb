@@ -10,7 +10,7 @@ end
 @coupon.coupon_code = params[:coupon][:coupon_code]
 @coupon.store = params[:coupon][:store]
 @coupon.save
-redirect_to coupon_url
+redirect_to coupon_url(@coupon)
   end
 
   def show
