@@ -17,8 +17,8 @@ redirect_to coupon_url(@coupon)
   		@coupon = Coupon.find(params[:id])
   	end
 
-  def coupon_url(coupon)
-  end
+#  def coupon_url(coupon)
+#  end
 
   def new
 		@coupon = Coupon.new
