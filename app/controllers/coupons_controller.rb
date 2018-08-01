@@ -12,6 +12,10 @@ end
 redirect_to "/coupons/#{@coupon.id}"
   end
 
+  def show
+  		@post = Post.find(params[:id])
+  	end
+    
   def coupon_url(coupon)
   end
 
