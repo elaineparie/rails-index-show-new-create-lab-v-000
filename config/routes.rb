@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :coupons, only: [:index, :create]
+  resources :coupons, only: [:index, :create, :delete]
   get '/coupons/:id', to: 'coupons#show', as: 'coupon_url'
 
 
