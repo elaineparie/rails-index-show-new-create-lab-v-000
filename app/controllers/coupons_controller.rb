@@ -4,7 +4,7 @@ class CouponsController < ActionController::Base
     @coupon = Coupon.new
 @coupon.coupon_code = params[:coupon_code]
 @coupon.store = params[:store]
-@coupn.save
+@coupon.save
 
 
   end
