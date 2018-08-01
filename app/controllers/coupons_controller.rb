@@ -8,4 +8,7 @@ class CouponsController < ActionController::Base
 redirect_to "/coupons/#{@coupon.id}"
   end
 
+  def coupon_url
+  end
+
 end
