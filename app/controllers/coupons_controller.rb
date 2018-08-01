@@ -5,7 +5,7 @@ class CouponsController < ActionController::Base
 @coupon.coupon_code = params[:coupon_code]
 @coupon.store = params[:store]
 @coupon.save
-redirect_to '/coupons/#{@coupon.id}'
+redirect_to "/coupons/#{@coupon.id}"
   end
 
 end
