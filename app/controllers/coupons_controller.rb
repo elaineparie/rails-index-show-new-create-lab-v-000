@@ -20,7 +20,7 @@ redirect_to "/coupons/#{@coupon.id}"
   end
 
   def new
-		@coupon = Coupn.new
+		@coupon = Coupon.new
 	end
 
 
