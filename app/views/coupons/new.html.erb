@@ -1,0 +1,9 @@
+<%= form_tag posts_path do %>
+  <label>Enter coupon_code:</label><br>
+  <%= text_field_tag :coupon_code %><br>
+
+  <label>Enter store</label><br>
+  <%= text_area_tag :store %><br>
+
+  <%= submit_tag "Submit coupon" %>
+<% end %>
