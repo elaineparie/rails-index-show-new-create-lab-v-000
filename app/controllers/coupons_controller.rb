@@ -19,4 +19,9 @@ redirect_to "/coupons/#{@coupon.id}"
   def coupon_url(coupon)
   end
 
+  def new
+		@coupon = Coupn.new
+	end
+
+
 end
